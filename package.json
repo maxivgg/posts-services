@@ -1,0 +1,35 @@
+{
+  "name": "posts-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxivgg/posts-services.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxivgg/posts-services/issues"
+  },
+  "homepage": "https://github.com/maxivgg/posts-services#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.18",
+    "@types/node": "^20.7.0",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mongodb": "^6.1.0"
+  }
+}
